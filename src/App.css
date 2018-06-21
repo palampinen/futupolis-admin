@@ -1,0 +1,33 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 60px;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #000;
+  height: 70px;
+  padding: 20px;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 60px;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+.App-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

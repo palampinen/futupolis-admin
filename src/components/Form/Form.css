@@ -1,0 +1,63 @@
+.form {
+  display: block;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+
+  background: #eee;
+  border-radius: 2px;
+  padding: 10px;
+  color: #000;
+  font-size: 1em;
+  line-height: 1.2;
+
+  border: 2px solid #eee;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.form-control:focused {
+  border: 2px solid #000;
+}
+
+textarea.form-control {
+  min-height: 100px;
+}
+
+.placeholder-form-element {
+  color: #aaa;
+}
+
+label span.label {
+  display: block;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.25;
+  margin-bottom: 5px;
+}
+
+label span.help-text {
+  color: #aaa;
+  display: block;
+  font-weight: normal;
+  font-size: 0.85em;
+}
+
+.button {
+  background: #000;
+  border: 2px solid #000;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 1.2em;
+  padding: 12px 20px 8px;
+  font-weight: normal;
+  cursor: pointer;
+
+  min-width: 200px;
+}
+
+.button:hover {
+  background: #222;
+}

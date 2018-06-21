@@ -1,0 +1,37 @@
+.message {
+  display: block;
+
+  text-align: left;
+  margin: 0 auto 30px;
+  padding: 0 0 30px;
+  /*border-bottom: 1px solid #eee;*/
+
+  background: #f2f4f7;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.message__date {
+  display: block;
+  font-size: 0.85em;
+  color: #888;
+}
+
+.message__title {
+  display: block;
+  font-weight: bold;
+  margin: 2px 0 15px;
+  font-size: 1.4em;
+  color: #fd5f00;
+  color: #333;
+}
+
+.message__image {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.message__text {
+  display: block;
+  white-space: pre-line;
+}
