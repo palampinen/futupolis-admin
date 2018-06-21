@@ -58,7 +58,9 @@ Application to add notifications to Firebase Database. Notifications include:
 # Start App
 
 `npm install`
-`cp env.example.js env.js` And fill configuration
+
+`cp env.example.js env.js` And fill Firebase configuration
+
 `npm start`
 
 # Licence
